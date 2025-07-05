@@ -1,85 +1,71 @@
-# Fitness-Tracking-Web-App
 
-A full-stack fitness tracking web application built with **Spring Boot (Java)** for the backend, **React** for the frontend, and **PostgreSQL** as the database. This project is designed as a production-ready portfolio piece to demonstrate full-stack development skills, RESTful API design, and responsive UI development.
+# Getting Started with Create React App
 
-## Built With
-React
-Spring Boot
-PostgreSQL
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- 🔐 **Client Authentication** – Secure login and personalized experience.
-- 🏢 **Gym Location Browser** – View all locations, filter by status (home, visited, unvisited), and explore amenities.
-- 🧑‍🏫 **Coach Profiles & Ratings** – View available coaches per location and read/write reviews with real-time rating updates.
-- 🗓 **Class Schedules** – Browse group classes offered at each location.
-- 📝 **Client Reviews** – Leave feedback on coaches, with rating logic influencing overall coach scores.
-- 📊 **Responsive UI** – Card-based layout, scrollable sections, and conditional rendering for logged-in users.
+In the project directory, you can run:
 
-# Tech Stack
+### `npm start`
 
-| Layer        | Technology               |
-|-------------|---------------------------|
-| Frontend     | React, React Router DOM   |
-| Backend      | Java, Spring Boot         |
-| Database     | PostgreSQL                |
-| Versioning   | Git + GitHub              |
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Project Structure (High-Level)
-```
-fitness-tracking-app/
-├── backend/ # Spring Boot project
-│ ├── controller/ # REST API controllers
-│ ├── service/ # Business logic
-│ ├── repository/ # JPA repositories
-│ └── model/ # Domain models (Client, Coach, etc.)
-├── frontend/ # React project
-│ ├── pages/ # Route-based pages (Home, Locations, Login, etc.)
-│ ├── components/ # Reusable components (Navbar, Cards, etc.)
-│ └── App.js # App routing and state
-└── README.md # You're reading it!
-```
+### `npm test`
 
-## Getting Started
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Prerequisites
+### `npm run build`
 
-- Java 17+
-- Node.js 18+
-- PostgreSQL
-- Maven
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Backend Setup
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```bash
-cd backend/
-./mvnw spring-boot:run
-```
-Frontend Setup
-```bash
-cd frontend/
-npm install
-npm start
-```
-Make sure the proxy is configured to connect frontend requests to localhost:8080
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Roadmap
-- [x] Location + Coach + Class Models
-- [x] Client Login
-- [x] Review + Rating Flow
-- [ ] Class Booking (Coming Soon)
-- [ ] Coach Detail Page
-- [ ] Admin Panel (Post-MVP)
+### `npm run eject`
 
-## In Progress
-This project is actively being developed and improved. Follow the Commits and Issues for updates.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## License
-This project is licensed under the MIT License.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Author
-Built with ❤️ by Amber – aspiring full-stack developer.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-[LinkedIn](https://www.linkedin.com/in/amber-hou/) • [GitHub](https://github.com/ambersei)
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
